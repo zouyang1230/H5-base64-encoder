@@ -2,11 +2,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>to64</title>
-	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<link rel="icon" href="/favicon.ico">
 	<style>
 		body {
 			text-align: center;
-			font-family: Helvetica;
+			font-family: 'STKaiti';
 			position: relative;
 			width: 100%;
 			height: 100%;
@@ -36,7 +36,6 @@
 			width: 100%;
 			margin: 2px 0px;
 			height: 120px;
-			font-family: Courier;
 			border: none;
 			background: whitesmoke;
 		}
@@ -69,7 +68,7 @@
 	<div id="results"></div>
 	<script>
 		if (typeof window.FileReader === 'undefined')
-			alert('File API & FileReader not supported');
+			alert('您的当前浏览器不支持 FileReader，无法实验最新特性');
 
 		var dropper = document.getElementById("dropper");
 		var results = document.getElementById("results");
